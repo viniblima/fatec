@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href="estilob2cor.css"/>
+    <title>Home - Unimed</title>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+
+    }
+    .galeria{
+        margin: 200px;
+        width: 553px;
+        height: 385px;
+        position: relative;
+        overflow: hidden;
+
+    }
+    .corretor{
+        position: relative;
+        top: 450px;
+        left:450px;
+    }
+
+    .foto{
+        position: absolute;
+        opacity: 0;
+        animation-name: animacao;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        left: 410px;
+        top: 210px;
+    }
+    @keyframes animacao {
+        25%{
+            opacity: 1;
+            transform: scale(1.1, 1.1);
+
+        }
+
+        50%{
+            opacity: 0;
+        }
+    }
+    .foto:nth-child(1){
+
+    }
+    .foto:nth-child(2){
+        animatin-delay: 20s;
+    }
+    .foto:nth-child(3){
+        animation-delay: 40s;
+    }
+
+
+
+</style>
+</head>
+<body>
+
+<div id = "headerwrapper">
+    <div id = "rodape">
+
+        <img src = "_css/rodape_final.jpg"/>
+
+
+    </div>
+    <img src="logo.png" width="20%" id = "logo"/>
+    <div id = "header">
+    <a href = "index.html" class = "botao">Home</a>
+    <a href = "cadastro.html" class = "botao">Solicite uma cotação</a>
+    <a href =  "login.html" class = "botao">Área Restrita</a>
+    <a href = "contato.html" class = "botao">Contato</a>
+
+
+
+
+    </div>
+            <img class = "foto" src = "_css/01.jpg"/>
+            <img class = "foto" src = "_css/02.jpg"/>
+            <img class = "foto" src = "_css/03.jpg"/>
+
+        <img class = "corretor" src = "_css/corretor.jpg"/>
+
+
+</div>
+
+
+
+</body>
+
+</html>

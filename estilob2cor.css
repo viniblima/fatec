@@ -1,0 +1,59 @@
+body {
+    background: #fff url("_css/bg-body.gif") top no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+#headerwrapper {
+    background: #273747;
+    width: 100%;
+    height: 191px;
+    position: relative;
+    color: #FFFFFF;
+}
+
+
+#header{
+    position: absolute;
+    left: 450px;
+    top: 160px;
+}
+a{
+    background-color: transparent;
+    text-decoration: #ffffff;
+    font-weight: bold;
+    font: 22pt Helvetica;
+}
+a:hover{
+    text-decoration: underline;
+}
+.botao{
+    background-color: #273747;
+    color: #ffffff;
+    padding: 8px;
+    box-shadow: 2px 2px 1px #aaaaaa;
+    font-weight: bold;
+    font: 13pt Gill Sans;
+    margin: 10px;
+    left: 240px;
+}
+#logo{
+    position: absolute;
+    top: 50px;
+}
+#back{
+    background-color: #273747;
+}
+#rodape{
+    background: #273747;
+    width: 100%;
+    height: 191px;
+    position: relative;
+    top: 70px;
+}
+#contato{
+    position: absolute;
+    left: 500px;
+    top: 800px;
+}
+
